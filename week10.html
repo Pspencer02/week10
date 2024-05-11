@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&D webpage</title> 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> <!--link bootstrap-->
 </head> 
 <body class="container">
     <h1>Welcome</h1>
-    <p>Welcome to our D&D tracker webpage. Here you can track your games.</p> <br> 
+    <p>Welcome to our D&D tracker webpage. Here you can track your games.</p> <br>  <!--webpage intro-->
 
     <div class="card">
         <div class="card-body">
@@ -16,13 +16,13 @@
                 <div class="col-sm">
                     <div class="form-group">
                         <label for="new-start-date">Campaign Start Date</label>
-                        <input type="date" class="form-control" id="new-start-date">
+                        <input type="date" class="form-control" id="new-start-date"> <!--Creating form to pick a new start date-->
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="form-group">
                         <label for="new-end-date">Campaign End Date</label>
-                        <input type="date" class="form-control" id="new-end-date">
+                        <input type="date" class="form-control" id="new-end-date"> <!--new form for end date-->
                     </div>
                 </div>
             </div>
@@ -35,12 +35,12 @@
                 </div>
             </div>   
             <div>
-                <button id="add" class="btn btn-dark form-control">Create</button>
+                <button id="add" class="btn btn-dark form-control">Create</button> <!--Button to create new campaign-->
             </div>
         </div>
     </div>
 
-    <table id="list" class="table table-dark table-striped table-bordered">
+    <table id="list" class="table table-dark table-striped table-bordered"> <!--New list to show off entered data-->
         <tr>
             <th>Name</th>
             <th>Date Created</th>
